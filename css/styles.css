@@ -83,15 +83,27 @@ h6 {
 }
 
 .h1-large {
-    font-size: 2.875rem;
+    font-size: 2.5rem;
     line-height: 3.5rem;
+    font-weight: 900;
+    color: #261551;
 }
 
 .p-large {
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.75rem;
+    letter-spacing: 0.5px;
+    
 }
-
+.p-title{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    color: #E10000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 .p-small {
     font-size: 0.875rem;
     line-height: 1.5rem;
@@ -131,11 +143,11 @@ h6 {
     display: inline-block;
     padding: 1.625rem 2.75rem 1.625rem 2.75rem;
     border: 1px solid #594cda;
-    border-radius: 32px;
+    border-radius: 6px;
     background-color: #594cda;
     color: #ffffff;
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 0;
     text-decoration: none;
     transition: all 0.2s;
@@ -163,14 +175,14 @@ h6 {
 }
 
 .btn-solid-lg.secondary {
-    border: 1px solid #eb427e;
-    background-color: #eb427e;
+    border: 1px solid #E10000;
+    background-color: #E10000;
 }
 
 .btn-solid-lg.secondary:hover {
-    border: 1px solid #eb427e;
+    border: 1px solid #E10000;
     background: transparent;
-    color: #eb427e; /* needs to stay here because of the color property of a tag */
+    color: #E10000; /* needs to stay here because of the color property of a tag */
 }
 
 .btn-outline-reg {
@@ -1164,8 +1176,9 @@ a:hover.back-to-top {
 @media (min-width: 1280px) {
     /* General Styles */
     .h1-large {
-        font-size: 3.125rem;
-        line-height: 3.75rem;
+        font-size: 2.35rem;
+        line-height: 2.75rem;
+        font-weight: 900;
     }
 
     .container {
