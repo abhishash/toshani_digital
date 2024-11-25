@@ -1239,3 +1239,29 @@ a:hover.back-to-top {
     /* end of extra pages */
 }
 /* end of min-width 1200px */
+/* Slider container */
+.slider-container {
+    position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+    min-height: 100px;
+    background-color: #1E1730;
+  }
+  
+  /* Text inside the slider */
+  .marquee {
+    position: absolute;
+    white-space: nowrap;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding: 20px 0px;
+    animation: slideFade 10s linear infinite;
+  }
+  
+  .marquee p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  
+ 
