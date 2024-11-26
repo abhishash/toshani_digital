@@ -14,13 +14,7 @@
   // 		$(".fixed-top").removeClass("top-nav-collapse");
   // 	}
   // });
-//   const sliderText = document.querySelector(".slider-text span");
-
-  // Change the text after a delay
-//   setTimeout(() => {
-//     sliderText.textContent = "Experience seamless animations with JavaScript! Experience seamless animations with JavaScript!";
-//   }, 10000);
-
+  
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(function () {
     $(document).on("click", "a.page-scroll", function (event) {

@@ -29,7 +29,9 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
-
+:root{
+    --e-global-color-2f866bb: #2f866bb;
+}
 body,
 p {
     color: #6b747b;
@@ -496,8 +498,63 @@ input[type="checkbox"] {
     transition: all 0.2s ease;
 }
 
+.nav-large-link {
+    display: block;
+    padding-top: 0.625rem;
+    font-size: 1.375rem;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 0.625rem;
+    letter-spacing: normalize;
+    /* color: #6b747b; */
+    color:#261551;
+    text-decoration: none;
+    line-height: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.elementor-icon-list-item{
+    display: block;
+    padding-top: 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 0.225rem;
+    letter-spacing: normalize;
+    /* color: #6b747b; */
+    color: #000;
+    text-decoration: none;
+    line-height: 0.875rem;
+    transition: all 0.2s ease;
+}
+.elementor-icon-list-item:hover, .elementor-icon-list-item.action {
+    color: #E10000;
+    text-decoration: none;
+}
+
+.premium-dual-header-second-header {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    color:  #261551;
+}
+.nav-large-link:hover,
+.nav-large-link.active {
+    color: #E10000;
+    text-decoration: none;
+}
+
+.ekit-heading--subtitle{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
 .dropdown-toggle {
     white-space: nowrap;
+    
 }
 
 .dropdown-toggle::after {
@@ -524,19 +581,19 @@ input[type="checkbox"] {
 
 .dropdown-menu {
     top: 100%;
-    left: 0;
+    right: 10%;
     z-index: 1000;
     display: none;
     min-width: 10rem;
-    padding: 0.5rem 0;
+    padding: 1rem 2rem;
     margin: 0.5rem 0;
     font-size: 1rem;
     color: #212529;
     list-style: none;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
     background-clip: padding-box;
     border-radius: 0.25rem;
-    animation: fadeDropdown 0.2s; /* required for the fade animation */
+    animation: fadeDropdown 0.8s; /* required for the fade animation */
 }
 
 .burger{
@@ -1264,4 +1321,6 @@ a:hover.back-to-top {
     color: #ffffff;
   }
   
- 
+ .text-color{
+    color : #E10000;
+ }
