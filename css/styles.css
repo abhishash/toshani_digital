@@ -659,16 +659,16 @@ input[type="checkbox"] {
 /********************/
 .cards-1 {
   padding-top: 4rem;
-  padding-bottom: 1.5rem;
   text-align: center;
 }
 
 .cards-1 .card {
-  margin-bottom: 3.5rem;
-  padding: 3.125rem 1rem 2.125rem 1rem;
+  padding: 2rem 0.5rem 2rem 0.5rem;
   border: none;
-  border-radius: 16px;
-  background-color: #f1f9fc;
+  width: full;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
 .cards-1 .card-image {
@@ -961,8 +961,8 @@ input[type="checkbox"] {
 /*     Footer     */
 /******************/
 .footer {
-  padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   background: linear-gradient(#fafaf9, #f5f5f4);
   text-align: center;
 }
@@ -1335,6 +1335,14 @@ a:hover.back-to-top {
 
 .text-color {
   color: #e10000;
+}
+
+.text-primary {
+  color: #e10000;
+}
+
+.text-secondary {
+  color: #261551;
 }
 
 .bg-secondary{
