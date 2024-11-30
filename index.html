@@ -998,79 +998,89 @@
         <!-- end of col -->
       </div>
       <div class="py-12 z-4">
-        <div id="counter"
-          class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 counter"
+        <div
+          id="counter"
+          class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 counter"
         >
           <!-- Happy Customers -->
-          <div class="text-center bg-white p-4 shadow-lg rounded-lg">
-            <div class="flex justify-center items-center mb-4">
+          <div class="text-center bg-white p-4 shadow-lg rounded">
+            <div class="flex justify-center gap-1 items-center mb-1">
               <div class="bg-gray-100 p-4 rounded-full">
-                <i class="fas fa-users text-blue-500 text-4xl"></i>
+                <i class="fas fa-users text-blue-900 text-4xl"></i>
               </div>
             </div>
-            <div class="cell">
+            <div class="cell flex justify-center items-center">
               <div
                 id="counter-happy-customers"
                 data-count="165489"
-                class="text-4xl counter-value number-count font-bold text-gray-800"
+                class="text-2xl counter-value number-count font-bold text-gray-800"
               >
                 0
               </div>
-              <p class="mt-2">Happy Customers</p>
+              <span class="text-xl font-bold text-gray-800">+</span>
             </div>
+            <p class="mt-2">Enthusiastic Employees</p>
           </div>
           <!-- Enthusiastic Employees -->
-          <div class="text-center p-4 shadow-lg bg-white rounded-lg">
-            <div class="flex justify-center items-center mb-4">
+          <div class="text-center p-4 shadow-lg bg-white rounded">
+            <div class="flex justify-center items-center mb-1">
               <div class="bg-gray-100 p-4 rounded-full">
-                <i class="fas fa-users-cog text-green-500 text-4xl"></i>
+                <i class="fas fa-users-cog text-blue-900 text-4xl"></i>
               </div>
             </div>
-            <div class="cell">
+            <div class="cell flex justify-center items-center">
               <div
                 id="counter-employees"
-                class="text-4xl font-bold counter-value number-count text-gray-800"
+                class="text-2xl font-bold counter-value number-count text-gray-800"
                 data-count="205"
-                >0</div
               >
-              <p class="mt-2">Enthusiastic Employees</p>
+                0
+              </div>
+              <span class="text-xl font-bold text-gray-800">+</span>
             </div>
+            <p class="mt-2">Enthusiastic Employees</p>
           </div>
           <!-- KIOSK Centers -->
-          <div class="text-center p-4 bg-white shadow-lg rounded-lg">
-            <div class="flex justify-center items-center mb-4">
+          <div class="text-center p-4 bg-white shadow-lg rounded">
+            <div class="flex justify-center items-center mb-1">
               <div class="bg-gray-100 p-4 rounded-full">
-                <i class="fas fa-university text-purple-500 text-4xl"></i>
+                <i class="fas fa-university text-blue-900 text-4xl"></i>
               </div>
             </div>
-            <div class="cell">
-              <div id="counter-kiosk" class="text-4xl counter-value number-count font-bold text-gray-800"
-              data-count="655"
-                >0</div
+            <div class="cell flex justify-center items-center gap-1">
+              <div
+                id="counter-kiosk"
+                class="text-2xl counter-value number-count font-bold text-gray-800"
+                data-count="655"
               >
+                0
+              </div>
+              <span class="text-xl font-bold text-gray-800">+</span>
             </div>
             <p class="mt-2">KIOSK Centers</p>
           </div>
           <!-- Digital Centers -->
-          <div class="text-center p-4 shadow-lg bg-white rounded-lg">
-            <div class="flex justify-center items-center mb-4">
+          <div class="text-center p-4 shadow-lg bg-white rounded">
+            <div class="flex justify-center items-center mb-1">
               <div class="bg-gray-100 p-4 rounded-full">
-                <i class="fas fa-server text-red-500 text-4xl"></i>
+                <i class="fas fa-server text-blue-900 text-4xl"></i>
               </div>
             </div>
-            <div class="cell">
+            <div class="cell flex justify-center items-center gap-1">
               <div
                 id="counter-digital-centers"
-                class="text-4xl counter-value number-count font-bold text-gray-800"
+                class="text-2xl counter-value number-count font-bold text-gray-800"
                 data-count="2300"
-                >0</span
-              ><span class="text-2xl font-bold text-gray-800">+</span>
+              >
+                0
+              </div>
+              <span class="text-xl font-bold text-gray-800">+</span>
             </div>
             <p class="mt-2">Digital Centers</p>
           </div>
         </div>
       </div>
-      
+
       <image src="./images/bg.svg" class="background-image" />
       <!-- end of container -->
     </div>
@@ -1159,15 +1169,25 @@
           </div>
           <!-- end of container -->
         </div>
-        <div class="cards-1 mb-6">
+        <div class="mb-6">
           <div class="max-w-screen-xl flex justify-between gap-4 mx-auto">
             <!-- Card -->
-            <div class="card w-full">
-              <div class="card-image">
-                <img src="images/features-icon-4.svg" alt="alternative" />
+            <div class="bg-white group w-full px-10 py-8 flex-col items-center flex justify-center">
+              <div class="mb-2 flex flex-col gap-y-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  fill="#e10000"
+                  viewBox="0 0 640 512"
+                >
+                  <path
+                    d="M256 64l128 0 0 64-128 0 0-64zM240 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l48 0 0 32L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0 0 32-48 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-48 0 0-32 256 0 0 32-48 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-48 0 0-32 96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-256 0 0-32 48 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L240 0zM96 448l0-64 128 0 0 64L96 448zm320-64l128 0 0 64-128 0 0-64z"
+                  />
+                </svg>
+                <h5 class="card-title">Wide Distribution Network</h5>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Wide Distribution Network</h5>
+                
                 <p class="mb-4">
                   We have a wide distribution network covering 16 states
                 </p>
@@ -1176,13 +1196,23 @@
             <!-- end of card -->
 
             <!-- Card -->
-            <div class="card">
-              <div class="card-image">
-                <img src="images/features-icon-5.svg" alt="alternative" />
+            <div class="bg-white group w-full px-10 py-8 flex-col items-center flex justify-center">
+              <div class="mb-2 flex flex-col gap-y-2 items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#e10000"
+                  width="60"
+                  viewBox="0 0 640 512"
+                >
+                  <path
+                    d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                  />
+                </svg>
+                <h5 class="card-title">24/7 Customer Support</h5>
               </div>
               <div class="card-body">
-                <h5 class="card-title">24/7 Customer Support</h5>
-                <p class="mb-4">
+                
+                <p class="mb-4 tracking-wide">
                   Our Custmers can avail roound the clock support, in case of
                   any issue
                 </p>
@@ -1191,12 +1221,22 @@
             <!-- end of card -->
 
             <!-- Card -->
-            <div class="card">
-              <div class="card-image">
-                <img src="images/features-icon-6.svg" alt="alternative" />
+            <div class="bg-white group w-full px-10 py-8 flex-col items-center flex justify-center">
+              <div class="flex flex-col gap-y-2 items-center mb-2 ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#e10000"
+                  width="55"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2 280 120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
+                  />
+                </svg>
+                <h5 class="card-title">Technology Driven Compnay</h5>
               </div>
               <div class="card-body">
-                <h5 class="card-title">Technology Driven Compnay</h5>
+               
                 <p class="mb-4">
                   We offer software to automate several business tasks
                 </p>
@@ -1226,12 +1266,13 @@
             Where we operate
           </h4>
           <h1 class="text-secondary font-black mb-6">Our Presence</h1>
-          <p>With our presence in more than 20 states already, we are determined to become a force to reckon with on the national platform.</p>
+          <p>
+            With our presence in more than 20 states already, we are determined
+            to become a force to reckon with on the national platform.
+          </p>
         </div>
         <div class="py-10">
-          <div
-            class="max-w-screen-xl mx-auto justify-between items-center"
-          >
+          <div class="max-w-screen-xl mx-auto justify-between items-center">
             <div class="lg:col-span-6">
               <div class="lg:mb-0 xl:mr-14">
                 <img
