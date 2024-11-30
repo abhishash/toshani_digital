@@ -1,693 +1,1207 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them" />
-        <meta name="author" content="Your name" />
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="" /> <!-- website name -->
-        <meta property="og:site" content="" /> <!-- website link -->
-        <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them"
+    />
+    <meta name="author" content="Your name" />
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- to have large image post format in Twitter -->
 
-        <!-- Webpage Title -->
-        <title>Pavo Webpage Title</title>
+    <!-- Webpage Title -->
+    <title>Pavo Webpage Title</title>
 
-        <!-- Styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-        <link href="css/fontawesome-all.css" rel="stylesheet" />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-        
-        <link href="css/swiper.css" rel="stylesheet" />
-        <link href="css/magnific-popup.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
 
-        <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.png" />
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/flip-card.css" rel="stylesheet" />
 
-        <!-- Navigation -->
-        <nav class=" fixed-top">
-            <div class="sm:px-4 lg:px-8 py-5 flex flex-wrap bg-white items-center justify-between lg:flex-nowrap shadow-lg">
-                <!-- Text Logo - Use this if you don't have a graphic logo -->
-                <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> -->
-                <!-- Image Logo -->
-                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-                    <img src="images/logo.svg" alt="alternative" class="h-8" />
-                </a>
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Navigation -->
+    <nav class="fixed-top">
+      <div
+        class="sm:px-4 lg:px-8 py-5 flex flex-wrap bg-white items-center justify-between lg:flex-nowrap shadow-lg"
+      >
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> -->
+        <!-- Image Logo -->
+        <a
+          class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
+          href="index.html"
+        >
+          <img src="images/logo.svg" alt="alternative" class="h-8" />
+        </a>
 
-                <button class="background-transparent border border-solid p-1 border-red-700 rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-500" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
-                </button>
+        <button
+          class="background-transparent border border-solid p-1 border-red-700 rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-500"
+          type="button"
+          data-toggle="offcanvas"
+        >
+          <span
+            class="navbar-toggler-icon inline-block w-8 h-8 align-middle"
+          ></span>
+        </button>
 
-                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
-                    <ul class="pl-0 mt-3 mb-2 ml-auto flex text-sm flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-                        <li>
-                            <a class="nav-link page-scroll active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="/about.html">About Us</a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="service.html">services</a>
-                        </li>
-                       
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">B2B API Services</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                            </div>
-                        </li>
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Channel Partner</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="career.html">Careers</a>
-                        </li>
-                        <li>
-                            <a class="nav-link page-scroll" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div> <!-- end of navbar-collapse -->
-            </div> <!-- end of container -->
-        </nav> <!-- end of navbar -->
-        <!-- end of navigation -->
+        <div
+          class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center"
+          id="navbarsExampleDefault"
+        >
+          <ul
+            class="pl-0 mt-3 mb-2 ml-auto flex text-sm flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row"
+          >
+            <li>
+              <a class="nav-link page-scroll active" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li>
+              <a class="nav-link page-scroll" href="/about.html">About Us</a>
+            </li>
+            <li>
+              <a class="nav-link page-scroll" href="service.html">services</a>
+            </li>
 
-        <br><br><br><br><br>
-        <section class="w-full bg-white relative" style="background:#F7F7F7;">
-        <div class="w-full max-w-screen-xl mx-auto flex flex-col">
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >B2B API Services</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item page-scroll" href="article.html"
+                  >Article Details</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="terms.html"
+                  >Terms Conditions</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="privacy.html"
+                  >Privacy Policy</a
+                >
+              </div>
+            </li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Channel Partner</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item page-scroll" href="article.html"
+                  >Article Details</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="terms.html"
+                  >Terms Conditions</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item page-scroll" href="privacy.html"
+                  >Privacy Policy</a
+                >
+              </div>
+            </li>
+            <li>
+              <a class="nav-link page-scroll" href="career.html">Careers</a>
+            </li>
+            <li>
+              <a class="nav-link page-scroll" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end of navbar-collapse -->
+      </div>
+      <!-- end of container -->
+    </nav>
+    <!-- end of navbar -->
+    <!-- end of navigation -->
+
+    <!-- Service section -->
+    <div class="max-w-screen-xl my-28 mx-auto">
+      <div class="text-center">
+        <h4
+          class="text-primary text-xl mb-0 tracking-wider uppercase font-normal"
+        >
+          What We Serve
+        </h4>
+        <h1 class="text-secondary font-black mb-6">Our Services</h1>
+        <p class="tracking-wider">
+          With extensive range of solutions, we help our merchants and customers
+          with a wide range of services to support their financial transaction
+          requirements.
+        </p>
+      </div>
+      <div class="max-w-screen-xl mx-auto my-16">
+        <div class="grid grid-cols-3 gap-8">
+          <!-- Card -->
+          <div class="flip-container border border-solid">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="50"
+                      viewBox="0 0 512 512"
+                      fill="#e10000"
+                    >
+                      <path
+                        d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l368 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                      />
+                    </svg>
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-primary font-semibold text-lg">
+                        Payment Services
+                      </h5>
+                      <p class="tracking-wider text-sm text-left">
+                        Easy & Innovative payment services to enable fast.
+                        Secure and seamless transactions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-back px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="50"
+                      viewBox="0 0 512 512"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l368 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32zM416 272a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+                      />
+                    </svg>
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-white font-semibold text-lg">
+                        Payment Services
+                      </h5>
+                      <p class="tracking-wider text-white text-sm text-left">
+                        Enable different types of financial transactions through
+                        the most appropriate solutions such as BBPS, Aadhar Pay,
+                        Mobile and DTH Recharge, Cash collection Points, etc.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+
+          <!-- Card -->
+          <div class="flip-container border border-solid">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                      fill="#e10000"
+                      width="50"
+                    >
+                      <path
+                        d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                      />
+                    </svg>
+
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-primary font-semibold text-lg">
+                        Marchant Services
+                      </h5>
+                      <p class="tracking-wider text-sm text-left">
+                        Minimize cash handling and increase more payment options
+                        with our marchant solution
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-back px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                      fill="#ffffff"
+                      width="50"
+                    >
+                      <path
+                        d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+                      />
+                    </svg>
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-white font-semibold text-lg">
+                        Marchant Services
+                      </h5>
+                      <p class="tracking-wider text-white text-sm text-left">
+                        Accept payments through payment cards (credit cards,
+                        debit cards, gift cards etc.) using Point of Sale (POS)
+                        and Quick Response (QR) code based payment solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+
+          <!-- Card -->
+          <div class="flip-container border border-solid">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                      width="50"
+                      fill="#e10000"
+                    >
+                      <path
+                        d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                      />
+                    </svg>
+
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-primary font-semibold text-lg">
+                        Banking Services
+                      </h5>
+                      <p class="tracking-wider text-sm text-left">
+                        Easy & Innovative payment services to enable fast.
+                        Secure and seamless transactions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-back px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 576 512"
+                      width="50"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                      />
+                    </svg>
+
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-white font-semibold text-lg">
+                        Banking Services
+                      </h5>
+                      <p class="tracking-wider text-white text-sm text-left">
+                        Enable different types of financial transactions through
+                        the most appropriate solutions such as BBPS, Aadhar Pay,
+                        Mobile and DTH Recharge, Cash collection Points, etc.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+
+          <!-- Card -->
+          <div class="flip-container border border-solid">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="50"
+                      fill="#e10000"
+                    >
+                      <path
+                        d="M256 96c38.4 0 73.7 13.5 101.3 36.1l-32.6 32.6c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9l112 0c8.8 0 16-7.2 16-16l0-112c0-6.5-3.9-12.3-9.9-14.8s-12.9-1.1-17.4 3.5l-34 34C363.4 52.6 312.1 32 256 32c-10.9 0-21.5 .8-32 2.3l0 64.9c10.3-2.1 21-3.2 32-3.2zM132.1 154.7l32.6 32.6c4.6 4.6 11.5 5.9 17.4 3.5s9.9-8.3 9.9-14.8l0-112c0-8.8-7.2-16-16-16L64 48c-6.5 0-12.3 3.9-14.8 9.9s-1.1 12.9 3.5 17.4l34 34C52.6 148.6 32 199.9 32 256c0 10.9 .8 21.5 2.3 32l64.9 0c-2.1-10.3-3.2-21-3.2-32c0-38.4 13.5-73.7 36.1-101.3zM477.7 224l-64.9 0c2.1 10.3 3.2 21 3.2 32c0 38.4-13.5 73.7-36.1 101.3l-32.6-32.6c-4.6-4.6-11.5-5.9-17.4-3.5s-9.9 8.3-9.9 14.8l0 112c0 8.8 7.2 16 16 16l112 0c6.5 0 12.3-3.9 14.8-9.9s1.1-12.9-3.5-17.4l-34-34C459.4 363.4 480 312.1 480 256c0-10.9-.8-21.5-2.3-32zM256 416c-38.4 0-73.7-13.5-101.3-36.1l32.6-32.6c4.6-4.6 5.9-11.5 3.5-17.4s-8.3-9.9-14.8-9.9L64 320c-8.8 0-16 7.2-16 16l0 112c0 6.5 3.9 12.3 9.9 14.8s12.9 1.1 17.4-3.5l34-34C148.6 459.4 199.9 480 256 480c10.9 0 21.5-.8 32-2.3l0-64.9c-10.3 2.1-21 3.2-32 3.2z"
+                      />
+                    </svg>
+
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-primary font-semibold text-lg">
+                        Kiosk ATM Services
+                      </h5>
+                      <p class="tracking-wider text-sm text-left">
+                        Easy & Innovative payment services to enable fast.
+                        Secure and seamless transactions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-back px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="50"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M256 96c38.4 0 73.7 13.5 101.3 36.1l-32.6 32.6c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9l112 0c8.8 0 16-7.2 16-16l0-112c0-6.5-3.9-12.3-9.9-14.8s-12.9-1.1-17.4 3.5l-34 34C363.4 52.6 312.1 32 256 32c-10.9 0-21.5 .8-32 2.3l0 64.9c10.3-2.1 21-3.2 32-3.2zM132.1 154.7l32.6 32.6c4.6 4.6 11.5 5.9 17.4 3.5s9.9-8.3 9.9-14.8l0-112c0-8.8-7.2-16-16-16L64 48c-6.5 0-12.3 3.9-14.8 9.9s-1.1 12.9 3.5 17.4l34 34C52.6 148.6 32 199.9 32 256c0 10.9 .8 21.5 2.3 32l64.9 0c-2.1-10.3-3.2-21-3.2-32c0-38.4 13.5-73.7 36.1-101.3zM477.7 224l-64.9 0c2.1 10.3 3.2 21 3.2 32c0 38.4-13.5 73.7-36.1 101.3l-32.6-32.6c-4.6-4.6-11.5-5.9-17.4-3.5s-9.9 8.3-9.9 14.8l0 112c0 8.8 7.2 16 16 16l112 0c6.5 0 12.3-3.9 14.8-9.9s1.1-12.9-3.5-17.4l-34-34C459.4 363.4 480 312.1 480 256c0-10.9-.8-21.5-2.3-32zM256 416c-38.4 0-73.7-13.5-101.3-36.1l32.6-32.6c4.6-4.6 5.9-11.5 3.5-17.4s-8.3-9.9-14.8-9.9L64 320c-8.8 0-16 7.2-16 16l0 112c0 6.5 3.9 12.3 9.9 14.8s12.9 1.1 17.4-3.5l34-34C148.6 459.4 199.9 480 256 480c10.9 0 21.5-.8 32-2.3l0-64.9c-10.3 2.1-21 3.2-32 3.2z"
+                      />
+                    </svg>
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-white font-semibold text-lg">
+                        Kiosk ATM Services
+                      </h5>
+                      <p class="tracking-wider text-white text-sm text-left">
+                        Enable different types of financial transactions through
+                        the most appropriate solutions such as BBPS, Aadhar Pay,
+                        Mobile and DTH Recharge, Cash collection Points, etc.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+
+          <!-- Card -->
+          <div class="flip-container border border-solid">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                      width="40"
+                      fill="#e10000"
+                    >
+                      <path
+                        d="M80 0C44.7 0 16 28.7 16 64l0 384c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L80 0zm80 432l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+                      />
+                    </svg>
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-primary font-semibold text-lg">
+                        Devices & Others
+                      </h5>
+                      <p class="tracking-wider text-sm text-left">
+                        Easy & Innovative payment services to enable fast.
+                        Secure and seamless transactions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flip-card-back px-8">
+                  <div class="flex flex-col pb-10 justify-end h-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                      width="40"
+                      fill="#ffffff"
+                    >
+                      <path
+                        d="M80 0C44.7 0 16 28.7 16 64l0 384c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L80 0zm80 432l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+                      />
+                    </svg>
+                    <div class="flex flex-col items-start">
+                      <h5 class="text-white font-semibold text-lg">
+                        Devices & Others
+                      </h5>
+                      <p class="tracking-wider text-white text-sm text-left">
+                        Enable different types of financial transactions through
+                        the most appropriate solutions such as BBPS, Aadhar Pay,
+                        Mobile and DTH Recharge, Cash collection Points, etc.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of card -->
+        </div>
+        <!-- end of container -->
+      </div>
+    </div>
+    <!-- end of Service section -->
+
+    <section class="w-full relative footer">
+      <div class="w-full max-w-screen-xl mx-auto flex flex-col">
         <div class="max-w-6xl mx-auto">
-            <h1 class="text-center text-xl font-bold text-red-600 uppercase tracking-wide">Services</h1>
-            <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">Payment Services</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-              <!-- BBPS Services -->
-              <div class="bg-white rounded-lg shadow-md p-6">
-                <img src="images/BBPS.JPG" alt="BBPS Icon" class="w-full mb-4">
-                <h3 class="text-red-600 text-lg font-bold mb-4">BBPS Services</h3>
-                <p class="text-gray-700 mb-2">
-                  Toshani enables its retailers to accept payments for all utility bills such as water, electricity, gas, and broadband through the Bharat Bill Payment System (BBPS). 
-                </p>
-                <p class="text-gray-700">
-                  The BBPS service also facilitates other payments for services like FasTag, Municipal Corporation Tax, LIC Premiums, Hospital, Housing Society, and much more.
-                </p>
-              </div>
-        
-              <!-- Aadhar Pay -->
-              <div class="bg-white rounded-lg shadow-md p-6">
-                <img src="images/AEPS.JPG" alt="Aadhar Pay Icon" class="w-full mb-4">
-                <h3 class="text-red-600 text-lg font-bold mb-4">Aadhar Pay</h3>
-                <p class="text-gray-700">
-                  Toshani Aadhaar Pay allows retailers to accept cashless payments from their customers, simply with an Aadhaar number and a fingerprint scanner.
-                </p>
-                <p class="text-gray-700">
-                  This fast, secure, and seamless payment management service allows cashless operations for the customer and the retailer.
-                </p>
-              </div>
+          <h1
+            class="text-center text-xl font-bold text-red-600 uppercase tracking-wide"
+          >
+            Services
+          </h1>
+          <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">
+            Payment Services
+          </h2>
 
-              <div class="bg-white rounded-lg shadow-md p-6">
-                <img src="images/Mobile-Recharge1.png" alt="BBPS Icon" class="w-full mb-4">
-                <h3 class="text-red-600 text-lg font-bold mb-4">Mobile & DTH Recharge</h3>
-                <p class="text-gray-700 mb-2">
-                    Retailers can now recharge mobile phones and DTH services to earn attractive commission on every transaction. Recharge is now available for all operators across India. Customers can enjoy all the latest offers that come with the recharge.
-                </p>
-               
-              </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-white rounded shadow-md p-6 card-effect">
+              <img src="images/BBPS.JPG" alt="BBPS Icon" class="w-full mb-4" />
+              <h3 class="text-primary text-lg font-bold mb-4">BBPS Services</h3>
+              <p class="text-gray-700 text-justify mb-2">
+                Toshani enables its retailers to accept payments for all utility
+                bills such as water, electricity, gas, and broadband through the
+                Bharat Bill Payment System (BBPS).The BBPS service also facilitates other payments for services
+                like FasTag, Municipal Corporation Tax, LIC Premiums, Hospital,
+                Housing Society, and much more.
+              </p>
+            </div>
 
-              <div class="bg-white rounded-lg shadow-md p-6">
-                <img src="images/Cash-1.png" alt="BBPS Icon" class="w-full mb-4">
-                <h3 class="text-red-600 text-lg font-bold mb-4">Cash Collection Points</h3>
-                <p class="text-gray-700 mb-2">
-                    Toshani franchisee are now Cash Collection Points where Agents, customers, and bank representatives can deposit their premiums, EMIs etc,. This service provides our Retailers with a unique opportunity to expand their business and earn more at the same time. It is free for both retailers and customers and is aimed at expanding customer reach trough diversified services.
-                </p>
-              </div>
+            <div class="bg-white rounded shadow-md p-6 card-effect">
+              <img
+                src="images/AEPS.JPG"
+                alt="Aadhar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-primary text-lg font-bold mb-2">Aadhar Pay</h3>
+              <p class="text-gray-700 text-justify text-justify">
+                Toshani Aadhaar Pay allows retailers to accept cashless payments
+                from their customers, simply with an Aadhaar number and a
+                fingerprint scanner. This fast, secure, and seamless payment management service
+                allows cashless operations for the customer and the retailer.
+              </p>
+            </div>
 
+            <div class="bg-white rounded shadow-md p-6 card-effect">
+              <img
+                src="images/Mobile-Recharge1.png"
+                alt="BBPS Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-primary text-lg font-bold mb-4">
+                Mobile & DTH Recharge
+              </h3>
+              <p class="text-gray-700 text-justify mb-2">
+                Retailers can now recharge mobile phones and DTH services to
+                earn attractive commission on every transaction. Recharge is now
+                available for all operators across India. Customers can enjoy
+                all the latest offers that come with the recharge.
+              </p>
+            </div>
+
+            <div class="bg-white rounded shadow-md p-6 card-effect">
+              <img
+                src="images/Cash-1.png"
+                alt="BBPS Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-primary text-lg font-bold mb-4">
+                Cash Collection Points
+              </h3>
+              <p class="text-gray-700 text-justify mb-2">
+                Toshani franchisee are now Cash Collection Points where Agents,
+                customers, and bank representatives can deposit their premiums,
+                EMIs etc,. This service provides our Retailers with a unique
+                opportunity to expand their business and earn more at the same
+                time. It is free for both retailers and customers and is aimed
+                at expanding customer reach trough diversified services.
+              </p>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <br><br>
+    <section class="w-full footer relative">
+      <div class="w-full max-w-screen-xl mx-auto flex flex-col">
+        <div class="max-w-6xl mx-auto">
+          <h1
+            class="text-center text-xl font-bold text-primary uppercase tracking-wide"
+          >
+            Services
+          </h1>
+          <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">
+            Merchant Services
+          </h2>
 
-        <section class="w-full bg-white relative">
-            <div class="w-full max-w-screen-xl mx-auto flex flex-col">
-            <div class="max-w-6xl mx-auto">
-                <h1 class="text-center text-xl font-bold text-red-600 uppercase tracking-wide">Services</h1>
-                <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">Merchant Services</h2>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                  <!-- BBPS Services -->
-                  <div class="bg-white rounded-lg shadow-md p-6">
-                    <img src="images/POS2.JPG" alt="BBPS Icon" class="w-full mb-4">
-                    <h3 class="text-red-600 text-lg font-bold mb-4">BBPS Services</h3>
-                    <p class="text-gray-700 mb-2">
-                      Toshani enables its retailers to accept payments for all utility bills such as water, electricity, gas, and broadband through the Bharat Bill Payment System (BBPS). 
-                    </p>
-                    <p class="text-gray-700">
-                      The BBPS service also facilitates other payments for services like FasTag, Municipal Corporation Tax, LIC Premiums, Hospital, Housing Society, and much more.
-                    </p>
-                  </div>
-            
-                  <!-- Aadhar Pay -->
-                  <div class="bg-white rounded-lg shadow-md p-6">
-                    <img src="images/QR-Codes.JPG" alt="Aadhar Pay Icon" class="w-full mb-4">
-                    <h3 class="text-red-600 text-lg font-bold mb-4">Quick Response (QR)</h3>
-                    <p class="text-gray-700">
-                        The growing usage of smartphones and internet has led to the payments industry in India undergoing and experiencing a sharp surge in QR Code-based payment solutions. Only accepting purpose B2B.    
-                    </p>
-                  </div>
-    
-    
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <div class="bg-white rounded shadow-md p-6 card-effect">
+              <img src="images/POS2.JPG" alt="BBPS Icon" class="w-full mb-4" />
+              <h3 class="text-primary text-lg font-bold mb-4">BBPS Services</h3>
+              <p class="text-gray-700 text-justify mb-2 text-justify">
+                Toshani enables its retailers to accept payments for all utility
+                bills such as water, electricity, gas, and broadband through the
+                Bharat Bill Payment System (BBPS).The BBPS service also facilitates other payments for services
+                like FasTag, Municipal Corporation Tax, LIC Premiums, Hospital,
+                Housing Society, and much more.
+              </p>
+             
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 card-effect">
+              <img
+                src="images/QR-Codes.JPG"
+                alt="Aadhar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-primary text-lg font-bold mb-4">
+                Quick Response (QR)
+              </h3>
+              <p class="text-gray-700 text-justify">
+                The growing usage of smartphones and internet has led to the
+                payments industry in India undergoing and experiencing a sharp
+                surge in QR Code-based payment solutions. Only accepting purpose
+                B2B.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of header -->
+
+    <section class="w-full footer relative">
+      <div class="w-full max-w-screen-xl mx-auto flex flex-col">
+        <!-- Section Title -->
+        <h1
+          class="text-center text-xl font-bold text-primary tracking-wide uppercase"
+        >
+          Services
+        </h1>
+        <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">
+          Banking Services
+        </h2>
+
+        <!-- Mission Section -->
+        <div class="bg-white rounded-lg shadow-md p-6 mt-6">
+          <p class="text-gray-700 mb-2">
+            Cash has been a vital unit for survival for every being, especially
+            in a country like India, where the majority of transactions are done
+            through cash because of reasons like unaffordability of smartphones
+            or internet access, lack of knowledge, etc. We aim to provide cash
+            availability in every corner of India, especially in rural and
+            semi-rural areas. A large number of people in India, particularly
+            the migrant population, don’t have access to formal banking channels
+            due to unavailability of proof of identity/address etc. Toshani is a
+            blessing for them to remit money back to their family members.
+          </p>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="mt-6">
+          <!-- Service Boxes -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 ">
+            <!-- BBPS Services -->
+            <div class="bg-white card-effect rounded-lg shadow-md p-4">
+              <img src="images/AEPS.JPG" alt="BBPS Icon" class="w-full mb-4" />
+              <h3 class="text-red-600 text-lg font-bold mb-4">AePS</h3>
+              <p class="text-gray-700 mb-2">
+                A POS terminal is a machine installed at Merchant Establishments
+                which enables the merchants to accept payments through payment
+                cards (credit cards, debit cards, gift cards etc.). The
+                installation of a POS device at the retail location minimises
+                cash handling and increase sales for the retailer by allowing
+                for more payment options. Customers can make cash free purchases
+                conveniently.
+              </p>
+            </div>
+
+            <!-- QR Code -->
+            <div class="bg-white rounded-lg shadow-md p-4 card-effect">
+              <img
+                src="images/Cash-1.png"
+                alt="QR Code Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Money Remittance
+              </h3>
+              <p class="text-gray-700">
+                Toshani customers can transfer money between different banks
+                spread across a wide network. With the help of retailers, they
+                can remit funds across all major national and private banks that
+                operate in India. This is a secure money transfer process with
+                multiple authentication levels to ensure optimum safety.
+              </p>
+            </div>
+
+            <!-- Additional Service -->
+            <div class="bg-white rounded-lg shadow-md p-4 card-effect">
+              <img
+                src="images/Mini-ATM-1.jpg"
+                alt="Aadhaar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Cash Withdrawal through Micro ATM
+              </h3>
+              <p class="text-gray-700">
+                With the help of the Toshani Micro ATM, anyone can now withdraw
+                cash for their customers with Debit Cards. You can withdraw cash
+                with all major cards like RuPay, Master, Visa, and Maestro.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full footer relative">
+      <div class="w-full max-w-screen-xl mx-auto flex flex-col">
+        <div class="max-w-6xl mx-auto">
+          <h1
+            class="text-center text-xl font-bold text-red-600 uppercase tracking-wide"
+          >
+            Services
+          </h1>
+          <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">
+            Kiosk ATM Services
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+            <!-- BBPS Services -->
+            <div class="bg-white rounded-lg shadow-md p-6 card-effect">
+              <img
+                src="images/Kiosk-ATM.JPG"
+                alt="BBPS Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">Kiosk ATM</h3>
+              <p class="text-gray-700 mb-2">
+                Enjoy all ATM services, just like any other bank ATM
+                Self-Service Terminal: Banking -
+              </p>
+              <ul class="list-disc pl-6 text-gray-700">
+                <li>
+                  Customers of all banks in India can enjoy services like
+                  balance inquiry, mini statements, and cash withdrawals.
+                </li>
+                <li>
+                  Accepts all domestic debit cards* issued by banks in India.
+                  Cards issued outside India are not accepted.
+                </li>
+                <li>
+                  Intuitive user interface with multilingual messaging for ease
+                  of usage for consumers across various regions.
+                </li>
+                <li>
+                  Privacy screen filters, keypad shields, electronic
+                  surveillance for completely secure transactions.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Aadhar Pay -->
+            <div class="bg-white rounded-lg shadow-md p-6 card-effect">
+              <img
+                src="images/Passbook-Print-Machine.jpg"
+                alt="Aadhar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Passbook Printing Kiosk
+              </h3>
+              <p class="text-gray-700 mb-2">
+                (Only Bank/Co-Operative Bank/NIDHI)
+              </p>
+              <ul class="list-disc pl-6 text-gray-700">
+                <li>Passbook printing with an inbuilt barcode reader or OTP</li>
+                <li>
+                  Direct connect to bank’s CBS Capable of remote monitoring, log
+                  creation & log pulling
+                </li>
+                <li>
+                  Low power consumption Inbuilt speakers for voice guidance
+                  Inbuilt Camera with DVSS (optional)
+                </li>
+              </ul>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 card-effect">
+              <img
+                src="images/Multifunctional-Kiosk.jpg"
+                alt="Aadhar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Multi-Functional Kiosk
+              </h3>
+              <p class="text-gray-700 mb-2">
+                (Only Bank/Co-Operative Bank/NIDHI)
+              </p>
+              <ul class="list-disc pl-6 text-gray-700">
+                <li>PassCheque deposit with single/multiline endorser</li>
+                <li>
+                  UV enabled with double detection Barcode-based passbook
+                  printing CTS compatible
+                </li>
+                <li>Direct connect to bank’s CBS, CTS server</li>
+                <li>Inbuilt speaker for voice guidance</li>
+                <li>Inbuilt camera with DVSS (optional)</li>
+              </ul>
+              <br />
+              <p class="text-gray-700 mb-2">Key Features:</p>
+              <ul class="list-disc pl-6 text-gray-700">
+                <li>Updating Customer passbook online</li>
+                <li>Accept CTS enabled Cheques</li>
+                <li>Create CTS processing file online</li>
+              </ul>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 card-effect">
+              <img
+                src="images/Cash-Recycler-Machine.jpg"
+                alt="Aadhar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Cash Recycler Machine
+              </h3>
+              <p class="text-gray-700 mb-2">
+                (Only Bank/Co-Operative Bank/NIDHI)
+              </p>
+              <ul class="list-disc pl-6 text-gray-700">
+                <li>
+                  Four recycling cassettes, one deposit cassette & one standard
+                  eject box via bio-metric and Debit card
+                </li>
+                <li>PADSS</li>
+                <li>EMV Level 2 certified</li>
+                <li>Anti-skimming card reader</li>
+                <li>PCI certified EPP</li>
+                <li>Pin shield & rear-view mirror</li>
+                <li>Bio finger scanner</li>
+                <li>Inbuilt speaker for voice guidance</li>
+                <li>Inbuilt camera with advanced DVSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+
+    <!-- end of header -->
+
+    <section class="w-full bg-white relative">
+      <div class="w-full max-w-screen-xl mx-auto flex flex-col">
+        <!-- Section Title -->
+        <h1
+          class="text-center text-xl font-bold text-red-600 tracking-wide uppercase"
+        >
+          Services
+        </h1>
+        <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">
+          Devices & Others
+        </h2>
+
+        <!-- Mission Section -->
+        <div class="bg-white rounded-lg shadow-md p-6 mt-6">
+          <p class="text-gray-700 mb-2">
+            The different devices provided to our Retailers enable them to offer
+            a host of services to their customers saving their time, money, and
+            effort.
+          </p>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="mt-6">
+          <!-- Service Boxes -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <!-- BBPS Services -->
+            <div class="bg-white rounded-lg shadow-md p-4 card-effect">
+              <img
+                src="images/Mini-ATM-1.jpg"
+                alt="BBPS Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Mini ATM Device
+              </h3>
+              <p class="text-gray-700 mb-2">
+                With the Toshani Mini ATM, a local General store can now become
+                an ATM centre providing basic ATM services such as cash
+                withdrawal. Toshani Mini ATMs accept all major debit cards.
+              </p>
+            </div>
+
+            <!-- QR Code -->
+            <div class="bg-white rounded-lg shadow-md p-4 card-effect">
+              <img
+                src="images/Biometric-1.jpg"
+                alt="QR Code Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                Bio-Metric Device
+              </h3>
+              <p class="text-gray-700">
+                Retailers can buy biometric devices from Toshani to carry out
+                seamless operations and provide hassle-free services to their
+                customers.
+              </p>
+            </div>
+
+            <!-- Additional Service -->
+            <div class="bg-white rounded-lg shadow-md p-4 card-effect">
+              <img
+                src="images/PAN-Card.jpg"
+                alt="Aadhaar Pay Icon"
+                class="w-full mb-4"
+              />
+              <h3 class="text-red-600 text-lg font-bold mb-4">
+                PAN Card Service
+              </h3>
+              <p class="text-gray-700">
+                Retailers can now get a new PAN card made or get an existing one
+                updated through authorized government channels. Our strong and
+                secure network provides seamless service, making the whole
+                process quick and easy for our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+
+    <header id="header" class="py-28 text-center footer lg:text-left">
+      <div
+        class="max-w-screen-xl mx-auto px-4 flex flex-col justify-center items-center sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-4"
+      >
+        <div class="xl:mr-12">
+          <p class="p-title">BEST COMPANY</p>
+          <h1 class="h1-large mb-5">Why Choose Us</h1>
+          <ul class="list-disc text-justify pl-6 text-gray-700">
+            <li>
+              One-stop solution to acquire your own kiosk for all digital
+              solutions, that is robust, secure, stable and scalable.
+            </li>
+            <li>
+              We take away all the hassle and supports your business to maximize
+              success, from one stage of growth to the next.
+            </li>
+            <li>
+              We bring you the POS terminal which is the future for rural and
+              semi-urban areas where ATMs are out of easy reach. Our POS
+              terminal would empower the merchants to accept payments through
+              payment cards (credit cards, debit cards, gift cards etc.) for
+              business by the retailer as well the customer with minimal or no
+              cash.
+            </li>
+            <li>
+              As per RBI notifications, there is a possibility of closing more
+              than 50% ATMs. In such a scenario, our kiosks are the future of
+              budding Digital India. A magic box where you can manage your
+              finances with our premium digital business banking services.
+            </li>
+            <li>
+              Apart from withdrawing cash, you also get the services such as
+              Balance Enquiry, Mini Statement and other Banking Services.
+            </li>
+            <li>
+              It’s a great platform for enterprises to advertise, it’s a jackpot
+              to retailers. Accelerate your income with us while offering
+              bouquet of services. Be a smart outlet serving every person who
+              comes at your doorstep.
+            </li>
+          </ul>
+        </div>
+        <div class="xl:text-right">
+          <img class="inline" src="images/Toshani-ATM.jpg" alt="alternative" />
+        </div>
+      </div>
+      <!-- end of container -->
+    </header>
+
+    <br /><br />
+
+    <!-- end of header -->
+
+    <footer class="footer">
+      <div class="mx-auto w-full max-w-screen-xl">
+        <div class="w-full relative pb-28">
+          <div
+            class="w-full max-w-screen-xl gap-0.5 mx-auto flex flex-col shadow"
+          >
+            <!-- Section 1 -->
+            <div class="w-full relative py-8 bg-primary">
+              <div class="flex justify-between gap-4 px-20">
+                <!-- Column 1 -->
+                <div class="w-full py-12">
+                  <h2 class="text-4xl text-left font-bold mb-6 text-white">
+                    Having Queries?
+                  </h2>
+                  <p class="text-white text-base font-medium text-left">
+                    Reach out to us if you have any queries regarding our
+                    services &amp; solutions.
+                  </p>
                 </div>
-              </div>
-            </section>
-
-            <br><br>
-        
-        <!-- end of header -->
-        
-        <section class="w-full bg-white relative">
-            <div class="w-full max-w-screen-xl mx-auto flex flex-col">
-              <!-- Section Title -->
-              <h1 class="text-center text-xl font-bold text-red-600 tracking-wide uppercase">Services</h1>
-              <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">Banking Services</h2>
-          
-              <!-- Mission Section -->
-              <div class="bg-white rounded-lg shadow-md p-6 mt-6">
-                <p class="text-gray-700 mb-2">
-                  Cash has been a vital unit for survival for every being, especially in a country like India, where the majority of transactions are done through cash because of reasons like unaffordability of smartphones or internet access, lack of knowledge, etc. We aim to provide cash availability in every corner of India, especially in rural and semi-rural areas. A large number of people in India, particularly the migrant population, don’t have access to formal banking channels due to unavailability of proof of identity/address etc. Toshani is a blessing for them to remit money back to their family members.
-                </p>
-              </div>
-          
-              <!-- Vision Section -->
-              <div class="mt-6">
-               
-                <!-- Service Boxes -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-                  <!-- BBPS Services -->
-                  <div class="bg-white rounded-lg shadow-md p-4">
-                    <img src="images/AEPS.JPG" alt="BBPS Icon" class="w-full mb-4">
-                    <h3 class="text-red-600 text-lg font-bold mb-4">AePS</h3>
-                    <p class="text-gray-700 mb-2">
-                        A POS terminal is a machine installed at Merchant Establishments which enables the merchants to accept payments through payment cards (credit cards, debit cards, gift cards etc.). The installation of a POS device at the retail location minimises cash handling and increase sales for the retailer by allowing for more payment options. Customers can make cash free purchases conveniently.
-                    </p>
-                  </div>
-          
-                  <!-- QR Code -->
-                  <div class="bg-white rounded-lg shadow-md p-4">
-                    <img src="images/Cash-1.png" alt="QR Code Icon" class="w-full mb-4">
-                    <h3 class="text-red-600 text-lg font-bold mb-4">Money Remittance</h3>
-                    <p class="text-gray-700">
-                        Toshani customers can transfer money between different banks spread across a wide network. With the help of retailers, they can remit funds across all major national and private banks that operate in India. This is a secure money transfer process with multiple authentication levels to ensure optimum safety. 
-                    </p>
-                  </div>
-          
-                  <!-- Additional Service -->
-                  <div class="bg-white rounded-lg shadow-md p-4">
-                    <img src="images/Mini-ATM-1.jpg" alt="Aadhaar Pay Icon" class="w-full mb-4">
-                    <h3 class="text-red-600 text-lg font-bold mb-4">Cash Withdrawal through Micro ATM</h3>
-                    <p class="text-gray-700">
-                        With the help of the Toshani Micro ATM, anyone can now withdraw cash for their customers with Debit Cards. You can withdraw cash with all major cards like RuPay, Master, Visa, and Maestro.  
-                    </p>
-                  </div>
+                <!-- Column 2 -->
+                <div class="w-full px-4 flex items-center justify-end">
+                  <a
+                    href="/contact"
+                    class="px-16 py-3 font-semibold bg-white rounded hover:bg-primary text-primary transition"
+                  >
+                    Contact Us
+                  </a>
                 </div>
               </div>
             </div>
-          </section>
-          
 
-          <br><br>
-
-          <section class="w-full bg-white relative" style="background:#F7F7F7;">
-              <div class="w-full max-w-screen-xl mx-auto flex flex-col">
-              <div class="max-w-6xl mx-auto">
-                  <h1 class="text-center text-xl font-bold text-red-600 uppercase tracking-wide">Services</h1>
-                  <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">Kiosk ATM Services</h2>
-                  
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                    <!-- BBPS Services -->
-                    <div class="bg-white rounded-lg shadow-md p-6">
-                      <img src="images/Kiosk-ATM.JPG" alt="BBPS Icon" class="w-full mb-4">
-                      <h3 class="text-red-600 text-lg font-bold mb-4">Kiosk ATM</h3>
-                      <p class="text-gray-700 mb-2">
-                        Enjoy all ATM services, just like any other bank ATM Self-Service Terminal: Banking -
-                      </p>
-                      <ul class="list-disc pl-6 text-gray-700">
-                        <li>Customers of all banks in India can enjoy services like balance inquiry, mini statements, and cash withdrawals.</li>
-                        <li>Accepts all domestic debit cards* issued by banks in India. Cards issued outside India are not accepted.</li>
-                        <li>Intuitive user interface with multilingual messaging for ease of usage for consumers across various regions.</li>
-                        <li>Privacy screen filters, keypad shields, electronic surveillance for completely secure transactions.</li>
-                      </ul>                      
-                    </div>
-              
-                    <!-- Aadhar Pay -->
-                    <div class="bg-white rounded-lg shadow-md p-6">
-                      <img src="images/Passbook-Print-Machine.jpg" alt="Aadhar Pay Icon" class="w-full mb-4">
-                      <h3 class="text-red-600 text-lg font-bold mb-4">Passbook Printing Kiosk</h3>
-                      <p class="text-gray-700 mb-2">
-                        (Only Bank/Co-Operative Bank/NIDHI)
-                      </p>
-                      <ul class="list-disc pl-6 text-gray-700">
-                        <li>Passbook printing with an inbuilt barcode reader or OTP</li>
-                        <li>Direct connect to bank’s CBS Capable of remote monitoring, log creation & log pulling</li>
-                        <li>Low power consumption Inbuilt speakers for voice guidance Inbuilt Camera with DVSS (optional)</li>
-                      </ul>  
-                    </div>
-      
-                    <div class="bg-white rounded-lg shadow-md p-6">
-                        <img src="images/Multifunctional-Kiosk.jpg" alt="Aadhar Pay Icon" class="w-full mb-4">
-                        <h3 class="text-red-600 text-lg font-bold mb-4">Multi-Functional Kiosk</h3>
-                        <p class="text-gray-700 mb-2">
-                            (Only Bank/Co-Operative Bank/NIDHI)
-                        </p>
-                        <ul class="list-disc pl-6 text-gray-700">
-                          <li>PassCheque deposit with single/multiline endorser</li>
-                          <li>UV enabled with double detection Barcode-based passbook printing CTS compatible</li>
-                          <li>Direct connect to bank’s CBS, CTS server</li>
-                          <li>Inbuilt speaker for voice guidance</li>
-                          <li>Inbuilt camera with DVSS (optional)</li>
-                        </ul>  
-                        <br>
-                        <p class="text-gray-700 mb-2">
-                            Key Features:
-                        </p>
-                        <ul class="list-disc pl-6 text-gray-700">
-                          <li>Updating Customer passbook online</li>
-                          <li>Accept CTS enabled Cheques</li>
-                          <li>Create CTS processing file online</li>
-                        </ul>  
-                      </div>
-
-                      <div class="bg-white rounded-lg shadow-md p-6">
-                        <img src="images/Cash-Recycler-Machine.jpg" alt="Aadhar Pay Icon" class="w-full mb-4">
-                        <h3 class="text-red-600 text-lg font-bold mb-4">Cash Recycler Machine</h3>
-                        <p class="text-gray-700 mb-2">
-                          (Only Bank/Co-Operative Bank/NIDHI)
-                        </p>
-                        <ul class="list-disc pl-6 text-gray-700">
-                          <li>Four recycling cassettes, one deposit cassette & one standard eject box via bio-metric and Debit card</li>
-                          <li>PADSS</li>
-                          <li>EMV Level 2 certified</li>
-                          <li>Anti-skimming card reader</li>
-                          <li>PCI certified EPP</li>
-                          <li>Pin shield & rear-view mirror</li>
-                          <li>Bio finger scanner</li>
-                          <li>Inbuilt speaker for voice guidance</li>
-                          <li>Inbuilt camera with advanced DVSS</li>
-                        </ul>  
-                      </div>
-      
-                  </div>
+            <!-- Section 2 -->
+            <div class="w-full bg-secondary relative py-8">
+              <div class="flex px-20 justify-between gap-4">
+                <!-- Column 1 -->
+                <div class="w-full py-12">
+                  <h2 class="text-4xl text-left font-bold mb-6 text-white">
+                    Become our Channel Partner
+                  </h2>
+                  <p class="text-white text-base font-medium text-left">
+                    Earn handsome additional income from your premises and/or
+                    business.
+                  </p>
                 </div>
-              </section>
+                <!-- Column 2 -->
+                <div class="w-full px-4 items-center flex gap-2 justify-end">
+                  <a
+                    href="/why-toshani-channel-partner/"
+                    class="px-12 py-3 bg-primary h-fit btn-solid-lg secondary text-white font-semibold rounded hover:bg-white transition"
+                  >
+                    Learn More
+                  </a>
+                  &nbsp;
 
-              <br><br>
-        
-              <!-- end of header -->
-              
-              <section class="w-full bg-white relative">
-                  <div class="w-full max-w-screen-xl mx-auto flex flex-col">
-                    <!-- Section Title -->
-                    <h1 class="text-center text-xl font-bold text-red-600 tracking-wide uppercase">Services</h1>
-                    <h2 class="text-center text-3xl font-bold text-blue-900 mt-2">Devices & Others</h2>
-                
-                    <!-- Mission Section -->
-                    <div class="bg-white rounded-lg shadow-md p-6 mt-6">
-                      <p class="text-gray-700 mb-2">
-                        The different devices provided to our Retailers enable them to offer a host of services to their customers saving their time, money, and effort.   
-                    </p>
-                    </div>
-                
-                    <!-- Vision Section -->
-                    <div class="mt-6">
-                     
-                      <!-- Service Boxes -->
-                      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-                        <!-- BBPS Services -->
-                        <div class="bg-white rounded-lg shadow-md p-4">
-                          <img src="images/Mini-ATM-1.jpg" alt="BBPS Icon" class="w-full mb-4">
-                          <h3 class="text-red-600 text-lg font-bold mb-4">Mini ATM Device</h3>
-                          <p class="text-gray-700 mb-2">
-                            With the Toshani Mini ATM, a local General store can now become an ATM centre providing basic ATM services such as cash withdrawal. Toshani Mini ATMs accept all major debit cards.     
-                        </p>
-                        </div>
-                
-                        <!-- QR Code -->
-                        <div class="bg-white rounded-lg shadow-md p-4">
-                          <img src="images/Biometric-1.jpg" alt="QR Code Icon" class="w-full mb-4">
-                          <h3 class="text-red-600 text-lg font-bold mb-4">Bio-Metric Device</h3>
-                          <p class="text-gray-700">
-                            Retailers can buy biometric devices from Toshani to carry out seamless operations and provide hassle-free services to their customers.
-                         </p>
-                        </div>
-                
-                        <!-- Additional Service -->
-                        <div class="bg-white rounded-lg shadow-md p-4">
-                          <img src="images/PAN-Card.jpg" alt="Aadhaar Pay Icon" class="w-full mb-4">
-                          <h3 class="text-red-600 text-lg font-bold mb-4">PAN Card Service</h3>
-                          <p class="text-gray-700">
-                            Retailers can now get a new PAN card made or get an existing one updated through authorized government channels. Our strong and secure network provides seamless service, making the whole process quick and easy for our customers.
-                        </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-  
-              <br><br>
-
-              <header id="header" class=" py-28 text-center  lg:text-left">
-                <div class="max-w-screen-xl mx-auto px-4 flex flex-col justify-center items-center sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-                    <div class="  xl:mr-12">
-                        <p class="p-title">BEST COMPANY</p>
-                        <h1 class="h1-large mb-5">Why Choose Us</h1>
-                        <ul class="list-disc pl-6 text-gray-700">
-                            <li>One-stop solution to acquire your own kiosk for all digital solutions, that is robust, secure, stable and scalable.</li>
-                            <li>We take away all the hassle and supports your business to maximize success, from one stage of growth to the next.</li>
-                            <li>We bring you the POS terminal which is the future for rural and semi-urban areas where ATMs are out of easy reach. Our POS terminal would empower the merchants to accept payments through payment cards (credit cards, debit cards, gift cards etc.) for business by the retailer as well the customer with minimal or no cash.</li>
-                            <li>As per RBI notifications, there is a possibility of closing more than 50% ATMs. In such a scenario, our kiosks are the future of budding Digital India. A magic box where you can manage your finances with our premium digital business banking services.</li>
-                            <li>Apart from withdrawing cash, you also get the services such as Balance Enquiry, Mini Statement and other Banking Services.</li>
-                            <li>It’s a great platform for enterprises to advertise, it’s a jackpot to retailers.
-                                Accelerate your income with us while offering bouquet of services. Be a smart outlet serving every person who comes at your doorstep.</li>
-                           
-                          </ul>  
-                    </div>
-                    <div class="xl:text-right">
-                        <img class="inline" src="images/Toshani-ATM.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of container -->
-            </header>
-
-            <br><br>
-        
-            <!-- end of header -->
-            
-          
-
-        
-          
-
-        
-
-
-      
-
-        <footer class="footer">
-          <div class="mx-auto w-full max-w-screen-xl">
-            <div class="w-full relative pb-28">
-              <div class="w-full max-w-screen-xl gap-0.5 mx-auto flex flex-col shadow">
-                <!-- Section 1 -->
-                <div
-                  class="w-full relative py-8 bg-primary"
-                >
-                  <div class="flex justify-between gap-4 px-20">
-                    <!-- Column 1 -->
-                    <div class="w-full py-12 ">
-                      <h2 class="text-4xl text-left font-bold mb-6 text-white">
-                        Having Queries?
-                      </h2>
-                      <p class="text-white text-base font-medium text-left">
-                        Reach out to us if you have any queries regarding our services
-                        &amp; solutions.
-                      </p>
-                    </div>
-                    <!-- Column 2 -->
-                    <div class="w-full px-4 flex items-center justify-end">
-                      <a
-                        href="/contact"
-                        class="px-16 py-3 font-semibold bg-white rounded hover:bg-primary text-primary transition"
-                      
-                      >
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-        
-                <!-- Section 2 -->
-                <div
-                  class="w-full bg-secondary relative py-8"
-                >
-                  <div class="flex px-20 justify-between gap-4">
-                    <!-- Column 1 -->
-                    <div class="w-full py-12">
-                      <h2 class="text-4xl text-left font-bold mb-6 text-white">
-                        Become our Channel Partner
-                      </h2>
-                      <p class="text-white text-base font-medium text-left">
-                        Earn handsome additional income from your premises and/or
-                        business.
-                      </p>
-                    </div>
-                    <!-- Column 2 -->
-                    <div class="w-full px-4 items-center flex gap-2 justify-end">
-                      <a
-                        href="/why-toshani-channel-partner/"
-                        class="px-12 py-3 bg-primary h-fit btn-solid-lg secondary text-white font-semibold rounded hover:bg-white transition"
-                      >
-                        Learn More
-                      </a>
-                      &nbsp;
-                     
-                      <a
-                        href="/contact"
-                        class="px-12 py-3 btn-solid-lg secondary bg-primary text-white font-semibold rounded hover:bg-blue-600 transition"
-                      >
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
+                  <a
+                    href="/contact"
+                    class="px-12 py-3 btn-solid-lg secondary bg-primary text-white font-semibold rounded hover:bg-blue-600 transition"
+                  >
+                    Contact Us
+                  </a>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-2 gap-8 justify-between flex px-4 py-6 lg:py-3 md:grid-cols-4"
+        >
+          <div class="flex flex-col gap-y-4">
             <div
-              class="grid grid-cols-2 gap-8 justify-between flex px-4 py-6 lg:py-3 md:grid-cols-4"
+              class="flex items-center gap-x-3 text-lg font-bold text-primary"
             >
-              <div class="flex flex-col gap-y-4">
-                <div
-                  class="flex items-center gap-x-3 text-lg font-bold text-primary"
+              <image
+                src="../images/logo.svg"
+                width="60"
+                alt="footer-logo-image"
+              />
+              <span>AryaWeb Digital </span>
+            </div>
+
+            <div class="social-container gap-0 flex justify-start my-4">
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+          <div class="flex w-full justify-around col-span-3">
+            <div>
+              <h2
+                class="mb-6 text-lg text-left font-bold text-gray-900 dark:text-white"
+              >
+                Important Links
+              </h2>
+              <ul
+                class="text-gray-500 text-left dark:text-gray-400 font-medium"
+              >
+                <li class="mb-2 text-sm">
+                  <a href="index.html" class="hover:text-red-500 duration-300"
+                    >Home</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="service.html" class="hover:text-red-500 duration-300"
+                    >Services</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="#" class="hover:text-red-500 duration-300">FAQs</a>
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="#" class="hover:text-red-500 duration-300"
+                    >Term & Conditions</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="index.html" class="hover:text-red-500 duration-300"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="service.html" class="hover:text-red-500 duration-300"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2
+                class="mb-6 text-lg text-left font-bold text-gray-900 dark:text-white"
+              >
+                Services
+              </h2>
+              <ul
+                class="text-gray-500 text-left dark:text-gray-400 font-medium"
+              >
+                <li class="mb-2 text-sm">
+                  <a href="index.html" class="hover:text-red-500 duration-300"
+                    >Payment Services</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="service.html" class="hover:text-red-500 duration-300"
+                    >Merchant Services</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="#" class="hover:text-red-500 duration-300"
+                    >Banking Services</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="#" class="hover:text-red-500 duration-300"
+                    >Self-Service ATM Kiosk</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="index.html" class="hover:text-red-500 duration-300"
+                    >Devices & Others</a
+                  >
+                </li>
+                <li class="mb-2 text-sm">
+                  <a href="service.html" class="hover:text-red-500 duration-300"
+                    >B2B API Services</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="flex flex-col">
+              <div>
+                <h2
+                  class="mb-6 text-lg text-left font-bold text-gray-900 dark:text-white"
                 >
-                  <image
-                    src="../images/logo.svg"
-                    width="60"
-                    alt="footer-logo-image"
-                  />
-                  <span>AryaWeb Digital </span>
-                </div>
-    
-                <div class="social-container gap-0 flex justify-start my-4">
-                  <span class="fa-stack">
-                    <a href="#your-link">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                  </span>
-                  <span class="fa-stack">
-                    <a href="#your-link">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                  </span>
-                  <span class="fa-stack">
-                    <a href="#your-link">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                    </a>
-                  </span>
-                  <span class="fa-stack">
-                    <a href="#your-link">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-instagram fa-stack-1x"></i>
-                    </a>
-                  </span>
-                  <span class="fa-stack">
-                    <a href="#your-link">
-                      <i class="fas fa-circle fa-stack-2x"></i>
-                      <i class="fab fa-youtube fa-stack-1x"></i>
-                    </a>
-                  </span>
-                </div>
+                  Contact
+                </h2>
+                <ul
+                  class="text-gray-500 text-left dark:text-gray-400 font-medium"
+                >
+                  <li class="mb-2 text-sm">
+                    <a href="index.html" class="hover:text-red-500 duration-300"
+                      >aryawebcoding@233gmail.com</a
+                    >
+                  </li>
+                  <li class="mb-2 text-sm">
+                    <a
+                      href="service.html"
+                      class="hover:text-red-500 duration-300"
+                      >+91 7906948573</a
+                    >
+                  </li>
+                </ul>
               </div>
-              <div class="flex w-full justify-around col-span-3">
-                <div>
-                  <h2
-                    class="mb-6 text-lg text-left font-bold text-gray-900 dark:text-white"
-                  >
-                    Important Links
-                  </h2>
-                  <ul
-                    class="text-gray-500 text-left dark:text-gray-400 font-medium"
-                  >
-                    <li class="mb-2 text-sm">
-                      <a href="index.html" class="hover:text-red-500 duration-300"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="service.html" class="hover:text-red-500 duration-300"
-                        >Services</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="#" class="hover:text-red-500 duration-300">FAQs</a>
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="#" class="hover:text-red-500 duration-300"
-                        >Term & Conditions</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="index.html" class="hover:text-red-500 duration-300"
-                        >Privacy Policy</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="service.html" class="hover:text-red-500 duration-300"
-                        >Contact Us</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h2
-                    class="mb-6 text-lg text-left font-bold text-gray-900 dark:text-white"
-                  >
-                    Services
-                  </h2>
-                  <ul
-                    class="text-gray-500 text-left dark:text-gray-400 font-medium"
-                  >
-                    <li class="mb-2 text-sm">
-                      <a href="index.html" class="hover:text-red-500 duration-300"
-                        >Payment Services</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="service.html" class="hover:text-red-500 duration-300"
-                        >Merchant Services</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="#" class="hover:text-red-500 duration-300"
-                        >Banking Services</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="#" class="hover:text-red-500 duration-300"
-                        >Self-Service ATM Kiosk</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="index.html" class="hover:text-red-500 duration-300"
-                        >Devices & Others</a
-                      >
-                    </li>
-                    <li class="mb-2 text-sm">
-                      <a href="service.html" class="hover:text-red-500 duration-300"
-                        >B2B API Services</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="flex flex-col">
-                  <div>
-                    <h2
-                      class="mb-6 text-lg text-left font-bold text-gray-900 dark:text-white"
-                    >
-                      Contact
-                    </h2>
-                    <ul
-                      class="text-gray-500 text-left dark:text-gray-400 font-medium"
-                    >
-                      <li class="mb-2 text-sm">
-                        <a href="index.html" class="hover:text-red-500 duration-300"
-                          >aryawebcoding@233gmail.com</a
-                        >
-                      </li>
-                      <li class="mb-2 text-sm">
-                        <a
-                          href="service.html"
-                          class="hover:text-red-500 duration-300"
-                          >+91 7906948573</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h2
-                      class="mb-2 text-lg text-left font-bold text-gray-900 dark:text-white"
-                    >
-                      Our Office
-                    </h2>
-                    <ul
-                      class="text-gray-500 text-left dark:text-gray-400 font-medium"
-                    >
-                      <li class="mb-2 text-sm">
-                        Delhi, Gurgaon, Solan (HP), Thane (Mumbai)
-                      </li>
-                      
-                    </ul>
-                  </div>
-                </div>
+              <div>
+                <h2
+                  class="mb-2 text-lg text-left font-bold text-gray-900 dark:text-white"
+                >
+                  Our Office
+                </h2>
+                <ul
+                  class="text-gray-500 text-left dark:text-gray-400 font-medium"
+                >
+                  <li class="mb-2 text-sm">
+                    Delhi, Gurgaon, Solan (HP), Thane (Mumbai)
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </footer>
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                const counters = [
-                    { id: "counter-happy-customers", value: 165489 },
-                    { id: "counter-employees", value: 205 },
-                    { id: "counter-kiosk", value: 655 },
-                    { id: "counter-digital-centers", value: 23000 }
-                ];
-        
-                const duration = 3000;
-        
-                counters.forEach(counter => {
-                    const element = document.getElementById(counter.id);
-                    let start = 0;
-                    const increment = Math.ceil(counter.value / (duration / 50));
-        
-                    const updateCounter = () => {
-                        start += increment;
-                        if (start > counter.value) {
-                            start = counter.value;
-                        }
-                        element.textContent = start.toLocaleString();
-                        if (start < counter.value) {
-                            requestAnimationFrame(updateCounter);
-                        }
-                    };
-        
-                    updateCounter();
-                });
-            });
-        </script>
-        
+        </div>
+      </div>
+    </footer>
 
-        <!-- Scripts -->
-        <script src="js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->
-        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for JavaScript plugins -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+  </body>
 </html>
